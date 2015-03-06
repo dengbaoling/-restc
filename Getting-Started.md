@@ -3,7 +3,7 @@
 ### Node (CommonJS)
 
 ```shell
-// 安装
+# 安装
 npm install mockjs
 ```
    
@@ -24,6 +24,7 @@ console.log(JSON.stringify(data, null, 4))
 <!-- If you'd like to use [bower](http://bower.io/), it's as easy as: -->
 
 ```shell    
+# 安装
 npm install -g bower
 bower install --save mockjs
 ```
