@@ -1,17 +1,19 @@
-### Color
+<!-- ### Color -->
 
-#### Random.color()
+## Random.color()
 
 * Random.color()
 
 随机生成一个颜色，格式为 '#RRGGBB'。
 
-**使用示例**如下所示：
+<!-- **使用示例**如下所示： -->
 
-    Random.color()
-    // => "#3538B2"
+```js
+Random.color()
+// => "#3538B2"
+```
 
-下面是一些随机生成的颜色：
+<!-- 下面是一些随机生成的颜色：
 
 <button id="genColor" type="button" class="btn btn-default">重新生成一批</button>
 
@@ -43,3 +45,4 @@
         }).trigger('click')
     })
 </script>
+ -->
