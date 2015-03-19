@@ -1,4 +1,4 @@
-# 用法
+<!-- # 用法 -->
 
 ### Node (CommonJS)
 
@@ -23,7 +23,7 @@ console.log(JSON.stringify(data, null, 4))
 
 <!-- If you'd like to use [bower](http://bower.io/), it's as easy as: -->
 
-```shell    
+```shell
 # 安装
 npm install -g bower
 bower install --save mockjs
@@ -115,14 +115,13 @@ KISSY.use(['node', 'mock'], function (S, _, Mock) {
 
 ### Random CLI
 
-    // 全局安装
-    npm install mockjs -g
+```shell
+# 全局安装
+$ npm install mockjs -g
 
-    // 执行
-    $ random url
-    // => http://rmcpx.org/funzwc
+# 执行
+$ random url
+# => http://rmcpx.org/funzwc
 
-    // 帮助
-    random -h
-
----
+# 帮助
+random -h

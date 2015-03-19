@@ -1,6 +1,5 @@
-Welcome to the Mock wiki!
+Welcome to the Mock.js wiki!
 
-* **[Home](/nuysoft/Mock/wiki)**
 * **[Getting Started](/nuysoft/Mock/wiki/Getting-Started)**
 * **[Syntax Specification](/nuysoft/Mock/wiki/Syntax-Specification)**
 * **[Mock.mock()](/nuysoft/Mock/wiki/Mock.mock())**
