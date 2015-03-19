@@ -59,7 +59,7 @@ Random.name(true)
 <!-- **使用示例**如下所示： -->
 
 ```js
-Random.first()
+Random.cfirst()
 // => "曹"
 ```
 

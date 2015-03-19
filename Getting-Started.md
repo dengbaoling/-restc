@@ -85,7 +85,7 @@ seajs.use('mock', function(Mock){
 [JSFiddle](http://jsfiddle.net/5jX6e/2/)
 
 
-### KISSY
+<!-- ### KISSY
 
 ```js
 // 配置 Mock 路径
@@ -110,7 +110,7 @@ KISSY.use(['node', 'mock'], function (S, _, Mock) {
 })
 ```
 
-[JSFiddle](http://jsfiddle.net/En2sX/2/)
+[JSFiddle](http://jsfiddle.net/En2sX/2/) -->
 
 
 ### Random CLI

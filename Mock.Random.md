@@ -1,8 +1,8 @@
-## Mock.Random
+<!-- ## Mock.Random -->
 
 Mock.Random 是一个工具类，用于生成各种随机数据。
 
-Mock.Random 的方法在数据模板中称为『占位符』，书写格式为 `@占位符(参数 [, 参数])` 。
+**Mock.Random 的方法在数据模板中称为『占位符』，书写格式为 `@占位符(参数 [, 参数])` 。**
 
 ```js
 var Random = Mock.Random
@@ -28,15 +28,15 @@ Mock.Random 提供的完整方法（占位符）如下：
 
 | Type          | Method
 | ------------- | -----------------------------------------------------------------------------
-| Basic         | boolean natural integer float character string range date time datetime now
-| Image         | image dataImage
+| Basic         | boolean, natural, integer, float, character, string, range, date, time, datetime, now
+| Image         | image, dataImage
 | Color         | color
-| Text          | paragraph sentence word title
-| Name          | first last name
-| Web           | url domain email ip tld
-| Address       | area region
-| Helper        | capitalize upper lower pick shuffle
-| Miscellaneous | guid id
+| Text          | paragraph, sentence, word, title, cparagraph, csentence, cword, ctitle
+| Name          | first, last, name, cfirst, clast, cname
+| Web           | url, domain, email, ip, tld
+| Address       | area, region
+| Helper        | capitalize, upper, lower, pick, shuffle
+| Miscellaneous | guid, id
 
 <script id="fixPlaceholderLink" type="text/javascript">
     $('#fixPlaceholderLink').prev('table')
@@ -71,7 +71,7 @@ Mock.Random 中的方法与数据模板的 `@占位符` 一一对应，在需要
 ```js
 Random.extend({
     constellations: ['白羊座', '金牛座', '双子座', '巨蟹座', '狮子座', '处女座', '天秤座', '天蝎座', '射手座', '摩羯座', '水瓶座', '双鱼座'],
-    constellation: function(date){
+    constellation: function(date) {
         return this.pick(this.constellations)
     }
 })
@@ -79,7 +79,9 @@ Random.constellation()
 // => "水瓶座"
 Mock.mock('@CONSTELLATION')
 // => "天蝎座"
-Mock.mock({ constellation: '@CONSTELLATION'})
+Mock.mock({
+    constellation: '@CONSTELLATION'
+})
 // => { constellation: "射手座" }
 ```
 

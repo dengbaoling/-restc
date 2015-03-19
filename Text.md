@@ -1,10 +1,10 @@
 <!-- ### Text -->
 
-## Random.paragraph(len)
+## Random.paragraph( min?, max? )
 
 * Random.paragraph()
-* Random.paragraph(len)
-* Random.paragraph(min, max)
+* Random.paragraph( len )
+* Random.paragraph( min, max )
 
 随机生成一段文本。
 
@@ -42,11 +42,11 @@ Random.paragraph(1, 3)
 // => "Qdgfqm puhxle twi lbeqjqfi bcxeeecu pqeqr srsx tjlnew oqtqx zhxhkvq pnjns eblxhzzta hifj csvndh ylechtyu."
 ```
 
-## Random.sentence(len)
+## Random.sentence( min?, max? )
 
 * Random.sentence()
-* Random.sentence(len)
-* Random.sentence(min, max)
+* Random.sentence( len )
+* Random.sentence( min, max )
 
 随机生成一个句子，第一个的单词的首字母大写。
 
@@ -81,11 +81,11 @@ Random.sentence(3, 5)
 // => "Mgl qhrprwkhb etvwfbixm jbqmg."
 ```
 
-## Random.word(len)
+## Random.word( min?, max? )
 
 * Random.word()
-* Random.word(len)
-* Random.word(min, max)
+* Random.word( len )
+* Random.word( min, max )
 
 随机生成一个单词。
 
@@ -122,11 +122,11 @@ Random.word(3, 5)
 
 > 目前单词中的字符是随机的小写字母，未来会根据词法生成『可读』的单词。
 
-## Random.title(len)
+## Random.title( min?, max? )
 
 * Random.title()
-* Random.title(len)
-* Random.title(min, max)
+* Random.title( len )
+* Random.title( min, max )
 
 随机生成一句标题，其中每个单词的首字母大写。
 
