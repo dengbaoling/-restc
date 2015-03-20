@@ -1,13 +1,13 @@
 <!-- ## Image -->
 
-## Random.image(size, background, foreground, format, text)
+## Random.image( size?, background?, foreground?, format?, text? )
 
 * Random.image()
-* Random.image(size)
-* Random.image(size, background)
-* Random.image(size, background, text)
-* Random.image(size, background, foreground, text)
-* Random.image(size, background, foreground, format, text)
+* Random.image( size )
+* Random.image( size, background )
+* Random.image( size, background, text )
+* Random.image( size, background, foreground, text )
+* Random.image( size, background, foreground, format, text )
 
 生成一个随机的图片地址。
 
@@ -83,11 +83,11 @@ Random.image('200x100', '#ffcc33', '#FFF', 'png', '!')
 <img data-src="http://dummyimage.com/200x100/ffcc33/FFF.png&amp;text=!" alt="">
  -->
 
-## Random.dataImage(size, text)
+## Random.dataImage( size?, text? )
 
 * Random.dataImage()
-* Random.dataImage(size)
-* Random.dataImage(size, text)
+* Random.dataImage( size )
+* Random.dataImage( size, text )
 
 生成一段随机的 Base64 图片编码。
 

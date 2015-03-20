@@ -26,10 +26,10 @@ Random.last()
 // => "Martinez"
 ```
 
-## Random.name(middle)
+## Random.name( middle? )
 
 * Random.name()
-* Random.name(middle)
+* Random.name( middle )
 
 随机生成一个常见的英文姓名。
 

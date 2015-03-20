@@ -1,4 +1,4 @@
-# 语法规范
+<!-- # 语法规范 -->
 
 Mock.js 的语法规范包括两部分：
 
@@ -94,7 +94,7 @@ Mock.js 的语法规范包括两部分：
 
     2. `'name|min-max': object`
 
-        从属性值 `{}` 中随机选取 `min` 到 `max` 个属性。
+        从属性值 `object` 中随机选取 `min` 到 `max` 个属性。
 
 5. 属性值是数组 **Array**
 
@@ -124,21 +124,21 @@ Mock.js 的语法规范包括两部分：
 
     1. `'name': regexp` 
 
-    根据正则表达式 `regexp` 反向生成可以匹配它的字符串。用于生成自定义格式的字符串。
+        根据正则表达式 `regexp` 反向生成可以匹配它的字符串。用于生成自定义格式的字符串。
 
-    ```js
-    Mock.mock({
-        'regexp1': /[a-z][A-Z][0-9]/,
-        'regexp2': /\w\W\s\S\d\D/,
-        'regexp3': /\d{5,10}/
-    })
-    // =>
-    {
-        "regexp1": "pJ7",
-        "regexp2": "F)\fp1G",
-        "regexp3": "561659409"
-    }
-    ```
+        ```js
+        Mock.mock({
+            'regexp1': /[a-z][A-Z][0-9]/,
+            'regexp2': /\w\W\s\S\d\D/,
+            'regexp3': /\d{5,10}/
+        })
+        // =>
+        {
+            "regexp1": "pJ7",
+            "regexp2": "F)\fp1G",
+            "regexp3": "561659409"
+        }
+        ```
 
 ## 数据占位符定义 DPD
 
@@ -161,14 +161,14 @@ _占位符_ 的格式为：
 6. _占位符_ 支持 _相对路径_ 和 _绝对路径_。
 
 ```js
-{
+Mock.mock({
     name: {
         first: '@FIRST',
         middle: '@FIRST',
         last: '@LAST',
         full: '@first @middle @last'
     }
-}
+})
 // =>
 {
     "name": {

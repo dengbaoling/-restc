@@ -1,6 +1,6 @@
 <!-- ## Basic -->
 
-## Random.boolean( min, max, current )
+## Random.boolean( min?, max?, current? )
 
 * Random.boolean()
 * Random.boolean( min, max, current )
@@ -43,7 +43,7 @@ Random.bool(1, 9, false)
 <!-- 事实上，原生方法 Math.random() 返回的随机（浮点）数的分布并不均匀，是货真价实的伪随机数，将来会替换为基于 ？？ 来生成随机数。?? 对 Math.random() 的实现机制进行了分析和统计，并提供了随机数的参考实现，可以访问[这里](http://??)。
 TODO 统计 -->
 
-## Random.natural( min, max )
+## Random.natural( min?, max? )
 
 * Random.natural()
 * Random.natural( min )
@@ -76,7 +76,7 @@ Random.natural(60, 100)
 // => 77
 ```
 
-## Random.integer( min, max )
+## Random.integer( min?, max? )
 
 * Random.integer()
 * Random.integer( min )
@@ -109,7 +109,7 @@ Random.integer(60,100)
 // => 96
 ```
 
-## Random.float( min, max, dmin, dmax )
+## Random.float( min?, max?, dmin?, dmax? )
 
 * Random.float()
 * Random.float( min )
@@ -161,7 +161,7 @@ Random.float(60, 100, 3, 5)
 // => 70.6849
 ```
 
-## Random.character( pool )
+## Random.character( pool? )
 
 * Random.character()
 * Random.character( 'lower/upper/number/symbol' )
@@ -207,7 +207,7 @@ Random.character('aeiou')
 // => "u"
 ```
 
-## Random.string( pool, min, max )
+## Random.string( pool?, min?, max? )
 
 * Random.string()
 * Random.string( length )
@@ -267,7 +267,7 @@ Random.string( '壹贰叁肆伍陆柒捌玖拾', 3, 5 )
 // => "肆捌伍叁"
 ```
 
-## Random.range( start, stop, step )
+## Random.range( start?, stop, step? )
 
 * Random.range( stop )
 * Random.range( start, stop )
@@ -310,7 +310,7 @@ Random.range(1, 10, 3)
 
 <!-- ## Datetime -->
 
-## Random.date( format )
+## Random.date( format? )
 
 * Random.date()
 * Random.date(format)
@@ -365,7 +365,7 @@ Random.date('y-M-d')
 // => "84-6-5"
 ```
 
-## Random.time( format )
+## Random.time( format? )
 
 * Random.time()
 * Random.time( format )
@@ -395,7 +395,7 @@ Random.time('H:m:s')
 // => "3:5:13"
 ```
 
-## Random.datetime( format )
+## Random.datetime( format? )
 
 * Random.datetime()
 * Random.datetime( format )
@@ -425,12 +425,12 @@ Random.datetime('y-M-d H:m:s')
 // => "02-4-23 2:49:40"
 ```
 
-## Random.now(unit, format)
+## Random.now( unit?, format? )
 
-* Ranndom.now(unit, format)
+* Ranndom.now( unit, format )
 * Ranndom.now()
-* Ranndom.now(format)
-* Ranndom.now(unit)
+* Ranndom.now( format )
+* Ranndom.now( unit )
 
 返回当前的日期和时间字符串。
 

@@ -28,11 +28,12 @@ Random.id()
 // => "420000200710091854"
 ```
 
-## Random.increment(step)
+## Random.increment( step? )
+
+* Random.increment()
+* Random.increment( step )
 
 生成一个全局的自增整数。
-
-* Random.increment(step)
 
 <!-- 参数的含义和默认值如下所示： -->
 
