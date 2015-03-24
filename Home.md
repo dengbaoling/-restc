@@ -5,6 +5,7 @@ Welcome to the Mock.js wiki!
 * **[Mock.mock()](/nuysoft/Mock/wiki/Mock.mock())**
 * **[Mock.Random](/nuysoft/Mock/wiki/Mock.Random)**
     * [Basic](/nuysoft/Mock/wiki/Basic)
+    * [Date](/nuysoft/Mock/wiki/Date)
     * [Image](/nuysoft/Mock/wiki/Image)
     * [Color](/nuysoft/Mock/wiki/Color)
     * [Text](/nuysoft/Mock/wiki/Text)

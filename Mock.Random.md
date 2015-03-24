@@ -8,19 +8,19 @@ Mock.Random 是一个工具类，用于生成各种随机数据。
 var Random = Mock.Random
 Random.email()
 // => "n.clark@miller.io"
-Mock.mock('@EMAIL')
+Mock.mock('@email')
 // => "y.lee@lewis.org"
-Mock.mock( { email: '@EMAIL' } )
+Mock.mock( { email: '@email' } )
 // => { email: "v.lewis@hall.gov" }
 ```
 
 **注意**
 
-1. 在上面的例子中看到，直接调用 `Random.email()` 时方法名 `email()` 是小写的，而数据模板中的 `@EMAIL` 却是大写。这是建议的编码风格，以便在阅读时从视觉上提高占位符的识别度，快速识别占位符和普通字符（并非强制的编写方式，在数据模板中使用小写的 `@email` 也可以达到同样的效果）。
+<!-- 1. 在上面的例子中看到，直接调用 `Random.email()` 时方法名 `email()` 是小写的，而数据模板中的 `@EMAIL` 却是大写。这是建议的编码风格，以便在阅读时从视觉上提高占位符的识别度，快速识别占位符和普通字符（并非强制的编写方式，在数据模板中使用小写的 `@email` 也可以达到同样的效果）。 -->
 
-2. 在浏览器中，为了减少需要拼写的字符，Mock.js 把 Mock.Random 暴露给了 window 对象，使之成为全局变量，从而可以直接访问 Random。因此上面例子中的 `var Random = Mock.Random;` 可以省略。在后面的例子中，也将做同样的处理。
+在浏览器中，为了减少需要拼写的字符，Mock.js 把 Mock.Random 暴露给了 window 对象，使之成为全局变量，从而可以直接访问 Random。因此上面例子中的 `var Random = Mock.Random` 可以省略。在后面的例子中，也将做同样的处理。
 
-    > 在 Node.js 中，仍然需要通过 `Mock.Random` 访问。
+> 在 Node.js 中，仍然需要通过 `Mock.Random` 访问。
 
 ### 方法
 
