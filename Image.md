@@ -11,7 +11,7 @@
 
 生成一个随机的图片地址。
 
-> **Random.image()** 用于生成高度自定义的图片地址，一般情况下，应该使用更简单的 Random.dataImage()。
+> **Random.image()** 用于生成高度自定义的图片地址，一般情况下，应该使用更简单的 **[Random.dataImage()](#randomdataimage-size-text-)**。
 
 <!-- **参数的含义和默认值**如下所示： -->
 
@@ -91,7 +91,7 @@ Random.image('200x100', '#ffcc33', '#FFF', 'png', '!')
 
 生成一段随机的 Base64 图片编码。
 
-> 如果需要生成高度自定义的图片，请使用 Random.image()。
+> 如果需要生成高度自定义的图片，请使用 **[Random.image()](#randomimage-size-background-foreground-format-text-)**。
 
 <!-- **参数的含义和默认值**如下所示： -->
 
