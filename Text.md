@@ -42,13 +42,36 @@ Random.paragraph(1, 3)
 // => "Qdgfqm puhxle twi lbeqjqfi bcxeeecu pqeqr srsx tjlnew oqtqx zhxhkvq pnjns eblxhzzta hifj csvndh ylechtyu."
 ```
 
+## Random.cparagraph( min?, max? )
+
+* Random.cparagraph()
+* Random.cparagraph( len )
+* Random.cparagraph( min, max )
+
+随机生成一段中文文本。
+
+参数的含义和默认值同 [Random.paragraph( min?, max? )](#Random.paragraph( min?, max? ))
+
+<!-- **使用示例**如下所示： -->
+
+```js
+Random.cparagraph()
+// => "给日数时化周作少情者美制论。到先争劳今已美变江以好较正新深。族国般建难出就金感基酸转。任部四那响成族利标铁导术一或已于。省元切世权往着路积会其区素白思断。加把他位间存定国工取除许热规先法方。"
+    
+Random.cparagraph(2)
+// => "去话起时为无子议气根复即传月广。题林里油步不约认山形两标命导社干。"
+    
+Random.cparagraph(1, 3)
+// => "候无部社心性有构员其深例矿取民为。须被亲需报每完认支这明复几下在铁需连。省备可离展五斗器就石正队除解动。"
+```
+
 ## Random.sentence( min?, max? )
 
 * Random.sentence()
 * Random.sentence( len )
 * Random.sentence( min, max )
 
-随机生成一个句子，第一个的单词的首字母大写。
+随机生成一个句子，第一个单词的首字母大写。
 
 <!-- **参数的含义和默认值**如下所示： -->
 
@@ -79,6 +102,29 @@ Random.sentence(5)
 // => "Fwlymyyw htccsrgdk rgemfpyt cffydvvpc ycgvno."
 Random.sentence(3, 5)
 // => "Mgl qhrprwkhb etvwfbixm jbqmg."
+```
+
+## Random.csentence( min?, max? )
+
+* Random.csentence()
+* Random.csentence( len )
+* Random.csentence( min, max )
+
+随机生成一段中文文本。
+
+参数的含义和默认值同 [Random.sentence( min?, max? )](#Random.sentence( min?, max? ))
+
+<!-- **使用示例**如下所示： -->
+
+```js
+Random.csentence()
+// => "第任人九同段形位第律认得。"
+    
+Random.csentence(2)
+// => "维总。"
+    
+Random.csentence(1, 3)
+// => "厂存。"
 ```
 
 ## Random.word( min?, max? )
@@ -122,6 +168,30 @@ Random.word(3, 5)
 
 > 目前单词中的字符是随机的小写字母，未来会根据词法生成『可读』的单词。
 
+## Random.cword( pool? )
+
+* Random.cword()
+* Random.cword( pool )
+
+随机生成一个汉字。
+
+<!-- **参数的含义和默认值**如下所示： -->
+
+### pool
+
+可选。
+
+汉字字符串。表示汉字字符池，将从中选择一个汉字字符返回。
+
+<!-- **使用示例**如下所示： -->
+
+```js
+Random.cword()
+// => "干"
+Random.cword('零一二三四五六七八九十')
+// => "六"
+```
+
 ## Random.title( min?, max? )
 
 * Random.title()
@@ -159,4 +229,45 @@ Random.title(5)
 // => "Ahknzf Btpehy Xmpc Gonehbnsm Mecfec"
 Random.title(3, 5)
 // => "Hvjexiondr Pyickubll Owlorjvzys Xfnfwbfk"
+```
+
+## Random.ctitle( min?, max? )
+
+* Random.ctitle()
+* Random.ctitle( len )
+* Random.ctitle( min, max )
+
+随机生成一句中文标题。
+
+参数的含义和默认值同 [Random.title( min?, max? )](#Random.title( min?, max? ))
+
+<!-- **参数的含义和默认值**如下所示： -->
+
+### len
+
+可选。
+
+指示单词中字符的个数。默认值为 3 到 7 之间的随机数。
+
+### min
+
+可选。
+
+指示单词中字符的最小个数。默认值为 3。
+
+### max
+
+可选。
+
+指示单词中字符的最大个数。默认值为 7。
+
+<!-- **使用示例**如下所示： -->
+
+```js
+Random.ctitle()
+// => "证构动必作"
+Random.ctitle(5)
+// => "应青次影育"
+Random.ctitle(3, 5)
+// => "出料阶相"
 ```
