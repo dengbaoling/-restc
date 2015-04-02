@@ -168,10 +168,14 @@ Random.word(3, 5)
 
 > 目前单词中的字符是随机的小写字母，未来会根据词法生成『可读』的单词。
 
-## Random.cword( pool? )
+## Random.cword( pool?, min?, max? )
 
 * Random.cword()
 * Random.cword( pool )
+* Random.cword( length )
+* Random.cword( pool, length )
+* Random.cword( min, max )
+* Random.cword( pool, min, max )
 
 随机生成一个汉字。
 
@@ -183,6 +187,18 @@ Random.word(3, 5)
 
 汉字字符串。表示汉字字符池，将从中选择一个汉字字符返回。
 
+### min
+
+可选。
+
+随机汉字字符串的最小长度。默认值为 1。
+
+### max
+
+可选。
+
+随机汉字字符串的最大长度。默认值为 1。
+
 <!-- **使用示例**如下所示： -->
 
 ```js
@@ -190,6 +206,14 @@ Random.cword()
 // => "干"
 Random.cword('零一二三四五六七八九十')
 // => "六"
+Random.cword(3)
+// => "别金提"
+Random.cword('零一二三四五六七八九十', 3)
+// => ""七七七""
+Random.cword(5, 7)
+// => "设过证全争听"
+Random.cword('零一二三四五六七八九十', 5, 7)
+// => "九七七零四"
 ```
 
 ## Random.title( min?, max? )
