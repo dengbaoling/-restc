@@ -13,6 +13,45 @@ Random.color()
 // => "#3538B2"
 ```
 
+## Random.hex()
+
+* Random.hex()
+
+随机生成一个有吸引力的颜色，格式为 '#RRGGBB'。
+
+<!-- **使用示例**如下所示： -->
+
+```js
+Random.hex()
+// => "#3538B2"
+```
+
+## Random.rgb()
+
+* Random.rgb()
+
+随机生成一个有吸引力的颜色，格式为 'rgb(r, g, b)'。
+
+<!-- **使用示例**如下所示： -->
+
+```js
+Random.rgb()
+// => "rgb(242, 198, 121)"
+```
+
+## Random.hsl()
+
+* Random.hsl()
+
+随机生成一个有吸引力的颜色，格式为 'hsl(h, s, l)'。
+
+<!-- **使用示例**如下所示： -->
+
+```js
+Random.hsl()
+// => "hsl(345, 82, 71)"
+```
+
 <!-- 下面是一些随机生成的颜色：
 
 <button id="genColor" type="button" class="btn btn-default">重新生成一批</button>
