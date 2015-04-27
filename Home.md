@@ -3,6 +3,7 @@ Welcome to the Mock.js wiki!
 * **[Getting Started](/nuysoft/Mock/wiki/Getting-Started)**
 * **[Syntax Specification](/nuysoft/Mock/wiki/Syntax-Specification)**
 * **[Mock.mock()](/nuysoft/Mock/wiki/Mock.mock())**
+* **[Mock.setup()](/nuysoft/Mock/wiki/Mock.setup())**
 * **[Mock.Random](/nuysoft/Mock/wiki/Mock.Random)**
     * [Basic](/nuysoft/Mock/wiki/Basic)
     * [Date](/nuysoft/Mock/wiki/Date)
