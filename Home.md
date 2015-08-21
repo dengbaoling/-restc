@@ -1,4 +1,6 @@
-Welcome to the Mock.js wiki!
+Welcome to the Mock.js 0.2 wiki!
+
+> [Mock.js 0.1 Docs](http://mockjs.com/)
 
 * **[Getting Started](/nuysoft/Mock/wiki/Getting-Started)**
 * **[Syntax Specification](/nuysoft/Mock/wiki/Syntax-Specification)**
@@ -16,4 +18,5 @@ Welcome to the Mock.js wiki!
     * [Helper](/nuysoft/Mock/wiki/Helper)
     * [Miscellaneous](/nuysoft/Mock/wiki/Miscellaneous)
 * **[Mock.valid()](/nuysoft/Mock/wiki/Mock.valid())**
+* **[Mock.toJSONSchema()](/nuysoft/Mock/wiki/Mock.toJSONSchema())**
 * **[Thanks & Contributors](/nuysoft/Mock/wiki/Thanks-&-Contributors)**

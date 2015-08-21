@@ -10,7 +10,7 @@
 
 必选。
 
-表示数据模板，可以是对象或字符串。例如 `{ 'data|1-10':[{}] }`、`'@EMAIL'`。
+表示数据模板，可以是对象或字符串。例如 `{ 'list|1-10':[{}] }`、`'@EMAIL'`。
 
 ### data
 
@@ -37,7 +37,7 @@ Mock.valid(template, data)
         "actual": "value2",
         "expected": "value1",
         "action": "equal to",
-        "message": "[VALUE] Expect data.name'value is equal to value1, but is value2"
+        "message": "[VALUE] Expect ROOT.name'value is equal to value1, but is value2"
     }
 ]
 ```
