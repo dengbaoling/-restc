@@ -27,8 +27,6 @@ var data = {
 }
 Mock.valid(template, data)
 // =>
-```
-```json
 [
     {
         "path": [
