@@ -39,6 +39,19 @@ Random.rgb()
 // => "rgb(242, 198, 121)"
 ```
 
+## Random.rgba()
+
+* Random.rgba()
+
+随机生成一个有吸引力的颜色，格式为 'rgba(r, g, b, a)'。
+
+<!-- **使用示例**如下所示： -->
+
+```js
+Random.rgba()
+// => "rgba(242, 198, 121, 0.13)"
+```
+
 ## Random.hsl()
 
 * Random.hsl()
