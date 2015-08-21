@@ -14,4 +14,5 @@
     * [Address](/nuysoft/Mock/wiki/Address)
     * [Helper](/nuysoft/Mock/wiki/Helper)
     * [Miscellaneous](/nuysoft/Mock/wiki/Miscellaneous)
+* **[Mock.valid()](/nuysoft/Mock/wiki/Mock.valid())**
 * **[Thanks & Contributors](/nuysoft/Mock/wiki/Thanks-&-Contributors)**
