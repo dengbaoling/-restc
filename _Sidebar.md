@@ -15,4 +15,5 @@
     * [Helper](/nuysoft/Mock/wiki/Helper)
     * [Miscellaneous](/nuysoft/Mock/wiki/Miscellaneous)
 * **[Mock.valid()](/nuysoft/Mock/wiki/Mock.valid())**
+* **[Mock.toJSONSchema()](/nuysoft/Mock/wiki/Mock.toJSONSchema())**
 * **[Thanks & Contributors](/nuysoft/Mock/wiki/Thanks-&-Contributors)**

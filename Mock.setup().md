@@ -27,4 +27,4 @@ Mock.setup({
 })
 ```
 
-> 目前，该接口仅用于配置 Ajax 请求，将来可能用于配置 Mock 的其他行为。
+> 目前，接口 `Mock.setup( settings )` 仅用于配置 Ajax 请求，将来可能用于配置 Mock 的其他行为。
