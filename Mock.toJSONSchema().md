@@ -54,7 +54,7 @@ Mock.toJSONSchema(template)
 
 ```js
 var template = {
-    list|1-10': [{}]
+    'list|1-10': [{}]
 }
 Mock.toJSONSchema(template)
 // =>
