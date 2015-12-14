@@ -36,7 +36,7 @@ Mock.js 的语法规范包括两部分：
 
 **生成规则和示例：**
 
-1. 属性值是字符串 **String**
+### 1. 属性值是字符串 **String**
 
     1. `'name|min-max': string` 
 
@@ -46,7 +46,7 @@ Mock.js 的语法规范包括两部分：
 
         通过重复 `string` 生成一个字符串，重复次数等于 `count`。
 
-2. 属性值是数字 **Number**
+### 2. 属性值是数字 **Number**
 
     1. `'name|+1': number` 
 
@@ -76,7 +76,7 @@ Mock.js 的语法规范包括两部分：
     }
     ```
 
-3. 属性值是布尔型 **Boolean**
+### 3. 属性值是布尔型 **Boolean**
 
     1. `'name|1': boolean` 
 
@@ -86,7 +86,7 @@ Mock.js 的语法规范包括两部分：
 
         随机生成一个布尔值，值为 `value` 的概率是 `min / (min + max)`，值为 `!value` 的概率是 `max / (min + max)`。
 
-4. 属性值是对象 **Object**
+### 4. 属性值是对象 **Object**
 
     1. `'name|count': object`
 
@@ -96,7 +96,7 @@ Mock.js 的语法规范包括两部分：
 
         从属性值 `object` 中随机选取 `min` 到 `max` 个属性。
 
-5. 属性值是数组 **Array**
+### 5. 属性值是数组 **Array**
 
     1. `'name|1': array` 
 
@@ -114,13 +114,13 @@ Mock.js 的语法规范包括两部分：
 
         通过重复属性值 `array` 生成一个新数组，重复次数为 `count`。
 
-6. 属性值是数组 **Function**
+### 6. 属性值是数组 **Function**
 
     1. `'name': function` 
 
         执行函数 `function`，取其返回值作为最终的属性值，函数的上下文为属性 `'name'` 所在的对象。
 
-7. 属性值是正则表达式 **RegExp**
+### 7. 属性值是正则表达式 **RegExp**
 
     1. `'name': regexp` 
 
