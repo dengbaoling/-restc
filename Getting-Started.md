@@ -58,7 +58,7 @@ require(['mock'], function(Mock){
 })
 ```
 
-[JSFiddle](http://jsfiddle.net/uTSqT/3/)
+[JSFiddle](http://jsfiddle.net/uTSqT/4/)
 
 <!-- ### Sea.js (CMD)
 
