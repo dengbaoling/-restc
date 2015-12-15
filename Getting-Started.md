@@ -57,6 +57,22 @@ require(['mock'], function(Mock){
         .appendTo('body')
 })
 ```
+```json
+// ==>
+{
+    "list": [
+        {
+            "id": 1
+        },
+        {
+            "id": 2
+        },
+        {
+            "id": 3
+        }
+    ]
+}
+```
 
 [JSFiddle](http://jsfiddle.net/uTSqT/4/)
 
