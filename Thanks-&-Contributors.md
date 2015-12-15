@@ -1,4 +1,5 @@
-## 感谢 & 贡献者
+# 感谢 & 贡献者
+
 <a class="photo" href="https://github.com/nuysoft">
   <img alt="nuysoft" src="https://1.gravatar.com/avatar/f027d7d8970d6602d2ff21eb3d3f42c1">
 </a>

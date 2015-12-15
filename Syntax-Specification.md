@@ -1,11 +1,11 @@
-<!-- # 语法规范 -->
+# 语法规范
 
 Mock.js 的语法规范包括两部分：
 
-1. 数据模板定义（Data Template Definition，DTD）
-2. 数据占位符定义（Data Placeholder Definition，DPD）
+1. 数据模板定义规范（Data Template Definition，DTD）
+2. 数据占位符定义规范（Data Placeholder Definition，DPD）
 
-## 数据模板定义 DTD
+## 数据模板定义规范 DTD
 
 **数据模板中的每个属性由 3 部分构成：属性名、生成规则、属性值：**
 
@@ -140,7 +140,7 @@ Mock.js 的语法规范包括两部分：
         }
         ```
 
-## 数据占位符定义 DPD
+## 数据占位符定义规范 DPD
 
 _占位符_ 只是在属性值字符串中占个位置，并不出现在最终的属性值中。
 
