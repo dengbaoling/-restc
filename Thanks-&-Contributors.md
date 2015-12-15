@@ -12,5 +12,3 @@
 <a class="photo" href="https://github.com/bitdeli-chef">
   <img alt="bitdeli-chef" src="https://avatars2.githubusercontent.com/u/3092978?v=3&s=60">
 </a>
-
-最初的灵感来自 Elijah Manor 的博文 [Mocking Introduction](http://www.elijahmanor.com/angry-birds-of-javascript-green-bird-mocking/)，语法参考了 [mennovanslooten/mockJSON](https://github.com/mennovanslooten/mockJSON)，随机数据参考了 [victorquinn/chancejs](http://chancejs.com/)。
