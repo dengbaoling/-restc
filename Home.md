@@ -1,6 +1,6 @@
-Welcome to the Mock.js 0.2 wiki!
+Welcome to the Mock.js 1.0 wiki!
 
-> [Mock.js 0.1 Docs](http://mockjs.com/)
+> [Mock.js 0.1 Docs](http://mockjs.com/0.1/)
 
 * **[Getting Started](/nuysoft/Mock/wiki/Getting-Started)**
 * **[Syntax Specification](/nuysoft/Mock/wiki/Syntax-Specification)**
