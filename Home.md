@@ -2,7 +2,7 @@
 
 > [Mock.js 0.1 文档](http://mockjs.com/0.1/)
 
-* **[开始](/nuysoft/Mock/wiki/Getting-Started)**
+* **[开始 & 安装](/nuysoft/Mock/wiki/Getting-Started)**
 * **[语法规范](/nuysoft/Mock/wiki/Syntax-Specification)**
     * [数据模板定义规范](/nuysoft/Mock/wiki/Syntax-Specification#数据模板定义规范-dtd)
         <br>
