@@ -114,7 +114,7 @@ Mock.js 的语法规范包括两部分：
 
         通过重复属性值 `array` 生成一个新数组，重复次数为 `count`。
 
-### 6. 属性值是数组 **Function**
+### 6. 属性值是函数 **Function**
 
     1. `'name': function` 
 
