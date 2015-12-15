@@ -57,7 +57,7 @@ require(['mock'], function(Mock){
         .appendTo('body')
 })
 ```
-```json
+```js
 // ==>
 {
     "list": [
