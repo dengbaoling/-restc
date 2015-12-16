@@ -22,7 +22,7 @@
 
 记录用于生成响应数据的函数。当拦截到匹配 `rurl` 的 Ajax 请求时，函数 `function(options)` 将被执行，并把执行结果作为响应数据返回。
 
-[JSFiddle](http://jsfiddle.net/nuysoft/2s5t5/9/)
+[JSFiddle](http://jsfiddle.net/nuysoft/2s5t5/15/)
 
 ### Mock.mock( rurl, rtype, template )
     
@@ -64,4 +64,7 @@
 
 #### options
 
-指向本次请求的 Ajax 选项集。
+指向本次请求的 Ajax 选项集，含有 `url`、`type` 和 `body` 三个属性，参见 [XMLHttpRequest 规范](https://xhr.spec.whatwg.org/)。
+
+> 从 1.0 开始，Mock.js 通过覆盖和模拟原生 XMLHttpRequest 的行为来拦截 Ajax 请求，不再依赖于第三方 Ajax 工具库（例如 jQuery、Zepto 等）。
+
