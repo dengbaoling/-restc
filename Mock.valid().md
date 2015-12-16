@@ -4,7 +4,7 @@
 
 * Mock.valid( template, data )
 
-校验真实数据 data 是否与数据模板 template 匹配。
+校验真实数据 `data` 是否与数据模板 `template` 匹配。
 
 ### template
 

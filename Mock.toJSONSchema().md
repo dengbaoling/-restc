@@ -4,7 +4,7 @@
 
 * Mock.toJSONSchema( template )
 
-把 Mock.js 风格的数据模板 template 转换成 JSON Schema。
+把 Mock.js 风格的数据模板 `template` 转换成 [JSON Schema](http://json-schema.org/)。
 
 ### template
 
