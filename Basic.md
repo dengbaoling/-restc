@@ -21,7 +21,7 @@
 
 指示参数 current 的相反值 `!current` 出现的概率。概率计算公式为 `max / (min + max)`。该参数的默认值为 `1`，即有 50% 的概率返回参数 `!current`。
 
-### current
+### current--》建议默认值为true
 
 可选。
 
