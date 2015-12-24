@@ -114,7 +114,7 @@ Random.integer(60,100)
 * Random.float()
 * Random.float( min )
 * Random.float( min, max )
-* Random.float( min, max, dmin )
+* Random.float( min, max, dmin )==》建议第三个参数为length，即生成大于min小于max小数位为length的浮点数
 * Random.float( min, max, dmin, dmax )
 
 返回一个随机的浮点数。
