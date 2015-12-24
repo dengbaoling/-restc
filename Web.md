@@ -89,7 +89,7 @@ Random.email('nuysoft.com')
 // => "h.pqpneix@nuysoft.com"
 ```
 
-## Random.ip()
+## Random.ip()--->建议预留一个参数（生成内网ip）
 
 * Random.ip()
 
