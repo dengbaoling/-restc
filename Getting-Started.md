@@ -80,9 +80,9 @@ require(['mock'], function(Mock){
 
 ### Sea.js (CMD)
 
-因为 Sea.js 社区尚未提供 webpack 插件，所以 Mock.js 暂不支持通过 Sea.js 加载。
+因为 Sea.js 社区尚未提供 webpack 插件，所以 Mock.js 暂**不完整**支持通过 Sea.js 加载。
 
-一种变通的方式是，先通过 Sea.js 配置和加载 Mock.js，然后访问全局变量 Mock。
+一种变通的方式是，依然通过 Sea.js 配置和加载 Mock.js，然后访问全局变量 Mock。
 
 ```js
 // 配置 Mock 路径
