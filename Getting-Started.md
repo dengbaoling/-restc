@@ -40,9 +40,9 @@ bower install --save mockjs
 ```js
 // 配置 Mock 路径
 require.config({
-  paths:{
-    'mock':'http://mockjs.com/dist/mock'
-  }
+    paths: {
+        mock: 'http://mockjs.com/dist/mock'
+    }
 })
 // 加载 Mock
 require(['mock'], function(Mock){
@@ -53,8 +53,10 @@ require(['mock'], function(Mock){
         }]
     })
     // 输出结果
-    $('<pre>').text(JSON.stringify(data, null, 4))
-        .appendTo('body')
+    document.body.innerHTML +=
+        '<pre>' +
+        JSON.stringify(data, null, 4) +
+        '</pre>'
 })
 ```
 ```js
@@ -74,33 +76,38 @@ require(['mock'], function(Mock){
 }
 ```
 
-[JSFiddle](http://jsfiddle.net/uTSqT/4/)
+[JSFiddle](http://jsfiddle.net/nzcsxd76/)
 
-<!-- ### Sea.js (CMD)
+### Sea.js (CMD)
+
+因为 Sea.js 社区尚未提供 webpack 插件，所以 Mock.js 暂不支持通过 Sea.js 加载。
+
+一种变通的方式是，先通过 Sea.js 配置和加载 Mock.js，然后访问全局变量 Mock。
 
 ```js
 // 配置 Mock 路径
 seajs.config({
-  alias: {
-    "mock": "http://mockjs.com/dist/mock.js"
-  }
+    alias: {
+        mock: 'http://mockjs.com/dist/mock.js'
+    }
 })
 
 // 加载 Mock
-seajs.use('mock', function(Mock){
-    // 使用 Mock
+seajs.use('mock', function(__PLACEHOLDER) {
+    // 使用 Mock（全局变量）
     var data = Mock.mock({
         'list|1-10': [{
             'id|+1': 1
         }]
-    })
-    // 输出结果
-    $('<pre>').text(JSON.stringify(data, null, 4))
-        .appendTo('body')
+    });
+    document.body.innerHTML +=
+        '<pre>' +
+        JSON.stringify(data, null, 4) +
+        '</pre>'
 })
 ```
 
-[JSFiddle](http://jsfiddle.net/5jX6e/2/) -->
+[JSFiddle](http://jsfiddle.net/3za48nwd/)
 
 
 <!-- ### KISSY
