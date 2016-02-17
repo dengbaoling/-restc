@@ -107,7 +107,7 @@ seajs.use('mock', function(__PLACEHOLDER) {
 })
 ```
 
-[JSFiddle](http://jsfiddle.net/3za48nwd/)
+[JSFiddle](http://jsfiddle.net/3za48nwd/1/)
 
 
 <!-- ### KISSY
