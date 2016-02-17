@@ -21,7 +21,7 @@
 
 指示参数 current 的相反值 `!current` 出现的概率。概率计算公式为 `max / (min + max)`。该参数的默认值为 `1`，即有 50% 的概率返回参数 `!current`。
 
-### current
+### current--》建议默认值为true
 
 可选。
 
@@ -114,7 +114,7 @@ Random.integer(60,100)
 * Random.float()
 * Random.float( min )
 * Random.float( min, max )
-* Random.float( min, max, dmin )
+* Random.float( min, max, dmin )==》建议第三个参数为length，即生成大于min小于max小数位为length的浮点数
 * Random.float( min, max, dmin, dmax )
 
 返回一个随机的浮点数。
