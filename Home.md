@@ -1,4 +1,4 @@
-欢迎来到 Mock.js 1.0 Wiki! 
+欢迎来到 Mock.js 1.x Wiki! 
 
 > [Mock.js 0.1 文档](http://mockjs.com/0.1/)
 
