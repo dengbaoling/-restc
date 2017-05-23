@@ -20,10 +20,10 @@
 
 ```js
 Mock.setup({
-	timeout: 400
+    timeout: 400
 })
 Mock.setup({
-	timeout: '200-600'
+    timeout: '200-600'
 })
 ```
 
